@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.page{
+    height: 400px;
+    width: 250px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: lavender;
+    }
+.page>header{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.page>header>samp{
+    color: white;
+}
+.page>figure{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.page>figure>img {
+    height: 100%;
+    width: 80px;
+    border-radius: 50%;
+}
+.page>h3{
+    /* padding: 5px; */
+    text-align: center;
+    text-transform: capitalize;
+}
+.page>p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: gray;
+    font-weight: 600;
+}
+.page>.three{
+    height: 60px;
+    width: 100%;
+    /* border:2px solid yellow; */
+    display: flex;
+}
+.page>.three>article{
+    height: 100%;
+    width: 33.33%;
+    /* border: 2px solid red;  */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: space-evenly; */
+
+}
+.page>.four{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.page>.four>article>figure{
+    height: 60px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+.page>.four>article>figure>img{
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+}
+.page>.five{
+    display: flex;
+      justify-content: center;
+      /* margin: 10px 0; */
+}
+.page>.five>button{
+    padding: 5px 10px;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      background: linear-gradient(to right,#7b63d4,#e954ad);
+      text-transform: capitalize;
+}
+.page>.five>button:first-child:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color: black;
+}
